@@ -1,17 +1,71 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+      <ion-button>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Cardápio</ion-title>
+    <ion-buttons slot="primary">
+      <ion-button color="secondary">
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
+
+<ion-toolbar>
+  <ion-searchbar placeholder="Buscar"></ion-searchbar>
+</ion-toolbar>
+
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Cardápio</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-list>
+    <ion-item>
+      <ion-badge slot="end">$25,90</ion-badge>
+      <ion-thumbnail>
+        <img src="https://t2.rg.ltmcdn.com/pt/posts/9/8/3/pizza_calabresa_e_mussarela_4389_600.jpg">
+      </ion-thumbnail>
+      <ion-label>Calabresa</ion-label>
+    </ion-item>  
+    
+    <ion-item>
+      <ion-badge slot="end">$37,00</ion-badge>
+      <ion-thumbnail>
+        <img src="https://pizzariadesucesso.com/wp-content/uploads/2018/11/images-4-1.jpeg">
+      </ion-thumbnail>
+      <ion-label>A Moda da Casa</ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-badge slot="end">$28,00</ion-badge>
+      <ion-thumbnail>
+        <img src="https://conteudo.imguol.com.br/c/entretenimento/28/2020/07/09/pizza-3-queijos-1594307449049_v2_450x337.jpg">
+      </ion-thumbnail>
+      <ion-label>3 Queijos</ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-badge slot="end">$26,50</ion-badge>
+      <ion-thumbnail>
+        <img src="https://www.picanhacia.com.br/wp-content/uploads/2017/01/tradicional-14-1.jpg">
+      </ion-thumbnail>
+      <ion-label>Frango</ion-label>
+    </ion-item>
+   
+    <ion-item>
+      <ion-badge slot="end">$28,90</ion-badge>
+      <ion-thumbnail>
+        <img src="https://t2.rg.ltmcdn.com/pt/posts/9/8/3/pizza_calabresa_e_mussarela_4389_600.jpg">
+      </ion-thumbnail>
+      <ion-label>Baiana</ion-label>
+    </ion-item>
+  </ion-list>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+  
